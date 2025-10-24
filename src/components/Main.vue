@@ -7,9 +7,9 @@
   </head>
   <div class="main">
     <div class="section header">
-      <div class="title"><img class="mat-icon" src="/icon2.png">TongUI</div>
+      <div class="title">TongUI</div>
       <div class="subtitle">
-        TongUI: Building Generalized GUI Agents by Learning <br>from Multimodal Web Tutorials
+        Building Generalized GUI Agents by Learning <br>from Multimodal Web Tutorials
         <!-- TongUI: Building Generalized GUI Agents by Learning \\ from Multimodal Web Tutorials -->
       </div>
 
@@ -84,7 +84,7 @@
       </div>
 
       <span class="link-block">
-        <a href="https://arxiv.org/pdf/" class="external-link button is-normal is-rounded is-dark">
+        <a href="https://arxiv.org/pdf/2504.12679" class="external-link button is-normal is-rounded is-dark">
           <span class="icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="1.0em" height="1.0em" viewBox="0 0 24 24">
               <path fill="currentColor"
@@ -95,7 +95,7 @@
         </a>
       </span>
       <span class="link-block">
-        <a href="https://github.com/" class="external-link button is-normal is-rounded is-dark">
+        <a href="https://github.com/TongUI-agent/TongUI-agent?tab=readme-ov-file" class="external-link button is-normal is-rounded is-dark">
           <span class="icon">
             <i class="fab fa-github"></i>
           </span>
@@ -103,10 +103,9 @@
         </a>
       </span>
 
-      <!-- Data Link. need changing -->
       <span class="link-block">
 
-        <a target="_blank" href="https://huggingface.co/datasets/"
+        <a target="_blank" href="https://huggingface.co/datasets/Bofeee5675/TongUI-1M"
           class="external-link button is-normal is-rounded is-dark">
           <span class="icon">
             <i class="fa fa-database"></i>
@@ -117,7 +116,18 @@
 
       <span class="link-block">
 
-        <a target="_blank" href=""
+        <a target="_blank" href="https://huggingface.co/Bofeee5675/TongUI-3B"
+          class="external-link button is-normal is-rounded is-dark">
+          <span class="icon">
+            <i class="fa fa-robot"></i>
+          </span>
+          <span>Model</span>
+        </a>
+      </span>
+
+      <span class="link-block">
+
+        <a target="_blank" href="https://huggingface.co/spaces/Bofeee5675/TongUI"
           class="external-link button is-normal is-rounded is-dark">
           <span class="icon">
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="2 0 32 22"
@@ -125,7 +135,7 @@
             <path d="M30.362,8.749c-0.218-1.179-0.989-2.168-2.064-2.647c-0.508-0.228-1.096,0.002-1.32,0.506	c-0.226,0.505,0.001,1.096,0.506,1.32c0.473,0.211,0.814,0.654,0.912,1.185c0.005,0.029,0.009,0.058,0.014,0.087	c0.001,0.093,0.014,0.185-0.002,0.28c-0.145,0.815-0.918,1.362-1.738,1.217c-6.302-1.111-13.09-1.128-20.188-0.053	c-0.518,3.798-0.475,8.104,0.132,11.988c0.127,0.818-0.433,1.586-1.251,1.714c-0.078,0.012-0.156,0.018-0.233,0.018	c-0.361,0-0.699-0.131-0.962-0.353c-0.003-0.002-0.006-0.004-0.008-0.006c-0.119-0.101-0.217-0.226-0.3-0.361	c-0.01-0.017-0.025-0.03-0.035-0.047c-0.085-0.151-0.146-0.319-0.175-0.501c-0.71-4.556-0.697-9.662,0.035-14.01	c0.106-0.632,0.603-1.126,1.233-1.23c0.437-0.073,0.871-0.132,1.306-0.197c5.965-0.766,11.879-0.861,17.592-0.262	c0.567,0.064,1.041-0.342,1.099-0.89c0.058-0.55-0.341-1.042-0.89-1.099C17.738,4.749,11.227,4.896,4.668,5.841	C3.156,6.06,1.93,7.259,1.685,8.759c-0.808,4.979-0.822,9.893-0.043,14.604c0.266,1.597,1.546,2.835,3.113,3.013	c3.665,0.414,7.384,0.621,11.132,0.621c3.772,0,7.575-0.21,11.379-0.63c1.547-0.172,2.827-1.378,3.113-2.934	C31.271,18.569,31.266,13.628,30.362,8.749z M13,13.958c0-0.879,0.944-1.434,1.712-1.007l5.475,3.042c0.79,0.439,0.79,1.576,0,2.015	l-5.475,3.042C13.944,21.476,13,20.92,13,20.042V13.958z"></path>
             </svg>
           </span>
-          <span>Video</span>
+          <span>Demo</span>
         </a>
       </span>
 
@@ -141,20 +151,9 @@
     <div class="section">
       <div class="section-title">Introduction</div>
       <p class="intro">
-        Building Graphical User Interface (GUI) agents is a promising research direction, which 
-        simulates human interaction with computers or mobile phones to perform diverse GUI tasks. 
-        However, a major challenge in developing generalized GUI agents is the lack of sufficient 
-        trajectory data across various operating systems and applications, mainly due to the high 
-        cost of manual annotations. In this paper, we propose the TongUI framework that builds 
-        generalized GUI agents by learning from rich multimodal web tutorials. Concretely, we 
-        crawl and process online GUI tutorials (such as videos and articles) into GUI agent 
-        trajectory data, through which we produce the GUI-Net dataset containing 143K trajectory 
-        data across five operating systems and more than 200 applications. We develop the TongUI 
-        agent by fine-tuning Qwen2.5-VL-3B/7B models on GUI-Net, which show remarkable performance 
-        improvements on commonly used grounding and navigation benchmarks, outperforming baseline 
-        agents about 10% on multiple benchmarks, showing the effectiveness of the GUI-Net dataset 
-        and underscoring the significance of our TongUI framework. We will <b>fully open-source</b> 
-        the code, the GUI-Net dataset, and the trained models soon.
+        Building Graphical User Interface (GUI) agents is a promising research direction, which simulates human interaction with computers or mobile phones to perform diverse GUI tasks. However, a major challenge in developing generalized GUI agents is the lack of sufficient trajectory data across various operating systems and applications, mainly due to the high cost of manual annotations. 
+        In this paper, we propose the TongUI framework that transforms millions of multimodal web tutorials into GUI trajectories for generalized GUI agents. Concretely, we crawl GUI videos and articles from the Internet and process them into GUI agent trajectory data. Based on this, we construct the GUI-Net-1M dataset, which contains 1 million trajectories across five operating systems and over 280 applications. To the best of our knowledge, this is the <b>largest open-source GUI trajectory dataset</b>. 
+        We develop the TongUI agent by fine-tuning Qwen2.5-VL-3B/7B/32B models on GUI-Net-1M, which shows consistent performance improvements on commonly used grounding and navigation benchmarks, outperforming baseline agents by 10% on multiple benchmarks, showing the effectiveness of the GUI-Net-1M dataset and underscoring the significance of our TongUI framework. We will <b>fully open-source</b> the code, raw data, the GUI-Net-1M dataset, and the trained models.
       </p>
     </div>
 
@@ -171,7 +170,7 @@ The generated tasks serve as keywords for retrieving content from hosts for onli
 The tutorial processing step aims to extract the textual descriptions and screenshots of multimodal tutorials.
 We first obtain textual descriptions of multimodal tutorials via automatic speech recognition (ASR) or captioning, through which task queries and plans are produced using LLMs on the obtained textual descriptions.
 Then, we extract salient frames from videos as the screenshot of each step, while the images in articles are directly regarded as screenshots.
-Finally, we leverage one zero-shot GUI agent to automatically recognize trajectories, including reasoning thoughts and actions between two steps.</p>
+Finally, we leverage one zero-shot GUI agent to automatically recognize trajectories, including reasoning thoughts and actions between two steps. Throughout these stages, a multi-step data filtering pipeline is applied to remove duplicates, discard GUI-irrelevant content, and filter out low-quality trajectories, ensuring high data quality and relevance.</p>
 
       <el-card class="teaser">
         <el-image src="./tongui/flow.png"></el-image>
@@ -181,7 +180,7 @@ Finally, we leverage one zero-shot GUI agent to automatically recognize trajecto
 
     <div class="section">
       <div class="section-title">Agent Tuning</div>
-      <p class="intro"> Based on GUI-Net, we develop the TongUI agent using Qwen2.5-VL-3B/7B models. 
+      <p class="intro"> Based on GUI-Net-1M, we develop the TongUI agent using Qwen2.5-VL-3B/7B models. 
       The architecture of the used model is shown below.
       </p>
 
@@ -194,11 +193,11 @@ Finally, we leverage one zero-shot GUI agent to automatically recognize trajecto
 
     <div class="section">
       <div class="section-title">GUI-Net Dataset </div>
-      <div class="intro">Based on the tutorial collection pipeline, we construct a GUI-Net dataset that contains 143K data across five operating systems with more than 200 applications. 
+      <div class="intro">Based on the tutorial collection pipeline, we construct a GUI-Net dataset that contains 1M data across five operating systems with more than 280 applications. 
         <br>
         We show the <b>operating system distribution</b> in (a). Our dataset covers a diverse range of operating systems, including Windows, Android, iOS, MacOS, and Linux, ensuring a broad representation of GUI interactions across both desktop and mobile environments.
-The <b>application distribution</b> is shown in (b). Our dataset covers a wide variety of application categories, ensuring a broad and diverse range of user tasks.
-We show the <b>step distribution</b> in (c). Our dataset includes GUI interactions with varying step lengths, ranging from single-step actions to 9-step tasks. The distribution shows that shorter tasks (1-3 steps) are more frequent, while longer tasks gradually decrease in numbers. This distribution reflects a balance between simple and complex GUI interactions, capturing both quick actions and more involved workflows. 
+We provide statistics on the <b>data filtering flow</b> in (b). Throughout the data filtering pipeline, we observe a gradual reduction in data volume, reflecting the progressive refinement of the dataset. 
+We show the <b>step distribution</b> in (c).  Our dataset includes GUI interactions with varying step lengths, ranging from single-step actions to 9-step tasks. The distribution shows that shorter tasks (1-3 steps) are more frequent, while longer tasks gradually decrease in numbers. 
 The <b>action distribution</b> is shown in (d). Our dataset encompasses a diverse range of GUI actions, with Click and Tap being the most frequent, reflecting their central role in both desktop and mobile interactions. Other common actions include HotKey, Swipe, and Drag, covering various forms of user interactions.
 
       </div>
@@ -211,7 +210,7 @@ The <b>action distribution</b> is shown in (d). Our dataset encompasses a divers
 
     <div class="section">
       <div class="section-title">Evaluation and Results </div>
-      <div class="intro">We evaluate the TongUI agent on offline benchmarks: <b>ScreenSpot</b>, <b>AITW</b>, <b>Mind2Web</b>, and <b>Baidu Experience</b> (we manually annotate 102 data points from the collected Baidu Experience data for testing). We also evaluate the TongUI agent on one online benchmark: <b>MiniWob</b>.
+      <div class="intro">We evaluate the TongUI agent on offline benchmarks: <b>ScreenSpot</b>, <b>ScreenSpot-V2</b>, <b>ScreenSpot-Pro</b>, <b>AITW</b>, <b>AndroidControl</b>, <b>Mind2Web</b>, and <b>UI-Vision</b>. We also evaluate the TongUI agent on one online benchmark: <b>MiniWob</b>.
 The results show that the TongUI agent exhibits consistent improvements in grounding and navigation capabilities. 
 The results demonstrate the generalization of the TongUI agent, since it is trained on high-quality data across diverse applications, underscoring the effectiveness of the TongUI framework that improves the agents in a low-cost manner without the need for expensive manual annotation.<br></div>
 
@@ -225,29 +224,36 @@ The results demonstrate the generalization of the TongUI agent, since it is trai
       In other evaluation datasets, we use the pre-trained model.<br><br>
       </div>
 
-      <div class="intro"><b>ScreenSpot Results.</b> In Table 1, we show the zero-shot grounding performance of TongUI. Similar to previous works, grounding on icon is much harder than grounding on text. 
+      <div class="intro"><b>Grounding.</b> In Table 2, we show the zero-shot grounding performance of TongUI on ScreenSpot, ScreenSpot-V2, and ScreenSpot-pro. Similar to previous works, grounding on icons is much harder than grounding on text. 
 The collected data leads to significant improvements on the baseline Qwen2.5-VL model. 
-Compared with ShowUI, we use similar training data size, but it has about 4.5 % improvements.
-TongUI has a slightly worse performance than UI-TARS (3% on the 3B model and 6% on the 7B model), but the training data used by UI-TARS is 40 times that of ours, causing more resource consumption.
-These results demonstrate that GUI-Net can indeed improve the grounding capability of GUI agents.<br></div>
+Compared with ShowUI, our method has about 5% - 20% improvements.
+TongUI has a comparable performance to UI-TARS, but UI-TARS only releases the models without training details and data.
+These results demonstrate that GUI-Net-1M can indeed improve the grounding capability of GUI agents.<br></div>
       <el-card class="stats-img-1">
         <el-image src="./tongui/results_screenspot.png"></el-image>
       </el-card>
 
-      <div class="intro"><b>AITW  Results.</b> AITW is a dataset about navigation on Android. The comparisons are shown in Table 2.
-We observe that the fine-tuned TongUI-3B model achieves better performance compared to ShowUI-2B by 1.6% in overall success rate. This shows that the collected data also improves the reasoning and planning capabilities of GUI agents on the navigation tasks. 
-The larger model, TongUI-7B, gains 1.7% improvement compared to TongUI-3B, which is consistent with common sense. <br></div>
-      <el-card class="stats-img-1">
-        <el-image src="./tongui/results_aitw.png"></el-image>
-      </el-card>
+      <div class="intro"><b>Offline Navigation.</b> We evaluate the offline navigation capability of GUI agents on the AITW, AndroidControl, Mind2Web, and UI-Vision datasets, and results on the AITW and Mind2Web are shown in Table 3 and Table 6, respectively.
+No matter whether on a small model (3B) or a big model (32B), using GUI-Net-1M data leads to competitive performance. 
+For example, TongUI-3B achieves better performance compared to ShowUI-2B by 1.6\% on AITW. The larger model, TongUI-7B, gains better performance compared to TongUI-3B, which is consistent with common sense. This highlights that the collected data improves the generalization capability of GUI agents. 
+We argue that the reason is that the collected data involves diverse applications and operating systems, improving generalization.<br></div>
+      <div class="img-container">
+        <el-card class="stats-img-1">
+          <el-image src="./tongui/results_aitw.png"></el-image>
+        </el-card>
 
-      <div class="intro"><b>Mind2Web Results.</b> In Table 3, the results of web navigation show that TongUI achieves the best performance on all metrics.
-Notably, cross-task, cross-website, and cross-domain tasks are more difficult than conventional GUI tasks. This highlights that the collected data improves the generalization capability of GUI agents. 
-We argue that the reason is that the collected data involves diverse applications and operating systems, improving the generalization capability.
-Compared to ShowUI-2B, TongUI-3B has obvious improvements, especially on <em>Elem. Acc</em> and <em>Step SR</em>. 
-Compared with ShowUI-Qwen2.5-VL-3B that fine-tunes the Qwen2.5-VL-3B model using the ShowUI dataset, TongUI-3B also has better performance (3.2% improvements), showing the quality of our data.<br></div>
-      <el-card class="stats-img-1">
-        <el-image src="./tongui/results_mind2web.png"></el-image>
+        <div class="divider"></div>
+
+        <el-card class="stats-img-1">
+          <el-image src="./tongui/results_mind2web.png"></el-image>
+        </el-card>
+      </div>
+
+      <div class="intro"><b>Online Navigation.</b> We evaluate the online navigation performance on MiniWob, as shown in Table 7. 
+Compared with offline navigation, online navigation is more challenging, since it processes dynamic environments, handles unexpected obstacles, and adapts to changes in the navigation path. In this case, TongUI, which learns from multimodal tutorials, achieves improvements again. 
+Considering that the multimodal tutorials are offline data, the improvements confirm the generalization of TongUI.<br></div>
+      <el-card class="stats-img-2">
+        <el-image src="./tongui/results_miniwob.png"></el-image>
       </el-card>
     </div>
 
@@ -277,8 +283,13 @@ Compared with ShowUI-Qwen2.5-VL-3B that fine-tunes the Qwen2.5-VL-3B model using
       </h3>
       <div class="bibtex-container">
         <pre><code class="language-bibtex">
-    
-</code></pre>
+@article{zhang2025tongui,
+  title={TongUI: Building Generalized GUI Agents by Learning from Multimodal Web Tutorials},
+  author={Zhang, Bofei and Shang, Zirui and Gao, Zhi and Zhang, Wang and Xie, Rui and Ma, Xiaojian and Yuan, Tao and Wu, Xinxiao and Zhu, Song-Chun and Li, Qing},
+  journal={arXiv preprint arXiv:2504.12679},
+  year={2025}
+}
+        </code></pre>
       </div>
     </div>
   </section>
@@ -376,6 +387,14 @@ Compared with ShowUI-Qwen2.5-VL-3B that fine-tunes the Qwen2.5-VL-3B model using
   display: block;
 }
 
+.stats-img-2 {
+  max-width: 35%;
+  max-height: 95%;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
+
 .intro {
   text-align: justify;
   font-size: 1em;
@@ -451,4 +470,17 @@ code {
   color: #0a0b0b;
   /* Change text color to match the theme */
 }
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divider {
+  width: 70%; /* 与图宽对齐 */
+  margin: 6px 0;
+  border-color: #141414; /* 分割线颜色 */
+}
+
 </style>
