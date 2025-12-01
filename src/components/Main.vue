@@ -9,7 +9,7 @@
     <div class="section header">
       <div class="title">TongUI</div>
       <div class="subtitle">
-        Building Generalized GUI Agents by Learning <br>from Multimodal Web Tutorials
+        Internet-Scale Trajectories from Multimodal Web Tutorials <br>for Generalized GUI Agents
         <!-- TongUI: Building Generalized GUI Agents by Learning \\ from Multimodal Web Tutorials -->
       </div>
 
