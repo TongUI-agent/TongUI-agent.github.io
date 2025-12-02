@@ -283,10 +283,10 @@ Considering that the multimodal tutorials are offline data, the improvements con
       </h3>
       <div class="bibtex-container">
         <pre><code class="language-bibtex">
-@article{zhang2025tongui,
+@inproceedings{zhang2025tongui,
   title={TongUI: Internet-Scale Trajectories from Multimodal Web Tutorials for Generalized GUI Agents},
   author={Zhang, Bofei and Shang, Zirui and Gao, Zhi and Zhang, Wang and Xie, Rui and Ma, Xiaojian and Yuan, Tao and Wu, Xinxiao and Zhu, Song-Chun and Li, Qing},
-  journal={arXiv preprint arXiv:2504.12679},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
   year={2025}
 }
         </code></pre>
