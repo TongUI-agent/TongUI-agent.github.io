@@ -18,55 +18,55 @@
         <!-- &#9733 &#9993;-->
         <span class="author">
           <el-link href="https://bofei5675.github.io/">Bofei Zhang</el-link>
-          <span class="ind">1&#9733;</span>,
+          <span class="ind">2&#9733;</span>,
         </span>
         <span class="author">
           <el-link href="">Zirui Shang</el-link>
-          <span class="ind">2,1&#9733;</span>,
+          <span class="ind">1,2&#9733;</span>,
         </span>
         <span class="author">
           <el-link href="https://zhigao2017.github.io/">Zhi Gao</el-link>
-          <span class="ind">1,3&#9733;</span>,
+          <span class="ind">1,2,3&#9733;</span>,
         </span>
         <span class="author">
           <el-link href="">Wang Zhang</el-link>
-          <span class="ind">1</span>,
+          <span class="ind">2</span>,
         </span>
         <span class="author">
           <el-link href="">Rui Xie</el-link>
-          <span class="ind">1,4</span>,
+          <span class="ind">2,4</span>,
         </span>
         <br>
         <span class="author">
           <el-link href="https://jeasinema.github.io/">Xiaojian Ma</el-link>
-          <span class="ind">1</span>,
-        </span>
-        <span class="author">
-          <el-link href="https://i.yt.sb/">Tao Yuan</el-link>
-          <span class="ind">1</span>,
-        </span>
-        <span class="author">
-          <el-link href="">Xinxiao Wu</el-link>
           <span class="ind">2</span>,
         </span>
         <span class="author">
+          <el-link href="https://i.yt.sb/">Tao Yuan</el-link>
+          <span class="ind">2</span>,
+        </span>
+        <span class="author">
+          <el-link href="">Xinxiao Wu</el-link>
+          <span class="ind">1</span>,
+        </span>
+        <span class="author">
           <el-link href="https://www.zhusongchun.net/">Song-Chun Zhu</el-link>
-          <span class="ind">1,3,5</span>,
+          <span class="ind">2,3,5</span>,
         </span>
         <span class="author">
           <el-link href="https://liqing.io/">Qing Li</el-link>
-          <span class="ind">1 &#9993;</span>
+          <span class="ind">2 &#9993;</span>
         </span>
       </div>
       <div class="author-list">
         <span class="org">
           <span class="ind">1</span>
-          State Key Laboratory for General Artificial Intelligence, BIGAI
+          Beijing Key Laboratory of Intelligent Information Technology, School of Computer Science & Technology, Beijing Institute of Technology
         </span>
         <br>
         <span class="org">
           <span class="ind">2</span>
-          Beijing Key Laboratory of Intelligent Information Technology, School of Computer Science & Technology, Beijing Institute of Technology
+          State Key Laboratory for General Artificial Intelligence, BIGAI
         </span>
         <br>
         <span class="org">
